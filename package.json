@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Notes Backend",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^4.11.4",
+    "swagger-express-mw": "^0.7.0",
+    "swagger-tools": "^0.10.4"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "mock": "node mock-data.js",
+    "remove": "node remove-data.js"
+  }
+}
